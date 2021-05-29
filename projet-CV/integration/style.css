@@ -129,6 +129,15 @@ body
     margin-bottom: 15px;
 }
 
+.contactInfo.education .title 
+{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
 .contactInfo.education h5
 {
     color: #03a9f4;
@@ -137,13 +146,13 @@ body
 
 .contactInfo.education h4:nth-child(2)
 {
-    color: #fff;
+    color: black;
     font-weight: 500;
 }
 
 .contactInfo.education h4
 {
-    color: #fff;
+    color: black;
     font-weight: 300;
 }
 
@@ -166,8 +175,13 @@ body
     background: #03a9f4;
 }
 
-
-
+.contactInfo.hard-skills img
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #fff;
+}
 
 
 
