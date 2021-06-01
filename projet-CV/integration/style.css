@@ -126,7 +126,7 @@ body
 
 .contactInfo.education li
 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .contactInfo.education .title 
@@ -156,7 +156,7 @@ body
     font-weight: 300;
 }
 
-.contactInfo.soft-skills .percent
+.contactInfo.hard-skills .percent
 {
     position: relative;
     width: 100%;
@@ -166,7 +166,7 @@ body
     margin-top: 5px;
 }
 
-.contactInfo.soft-skills .percent div
+.contactInfo.hard-skills .percent div
 {
     position: relative;
     top: 0;
@@ -175,12 +175,10 @@ body
     background: #03a9f4;
 }
 
-.contactInfo.hard-skills img
+.contactInfo.soft-skills li
 {
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
     color: #fff;
+    font-weight: 300;
 }
 
 
@@ -190,4 +188,80 @@ body
     position: relative;
     background: #fff;
     padding: 40px;
+}
+
+.about
+{
+    margin-bottom: 50px;
+}
+
+.about:last-child
+{
+    margin-bottom: 0;
+}
+
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+p
+{
+    color: #333;
+}
+
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+.about .box .year_company
+{
+    min-width: 150px;
+}
+
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.box .contactInfo
+{
+    margin-top: -50px;
+}
+
+.interest ul
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.interest ul li
+{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interest ul li .fa
+{
+    color: #03a9f4;
+    font-size: 18px;
 }
